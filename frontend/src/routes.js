@@ -11,7 +11,7 @@ export default function Routes() {
         <Route path="/users" exact component={UserList} />
         
         <Route path="/users/create" component={UserForm} />
-        <Route path="/users/edit/:id" component={UserList} />
+        <Route path="/users/edit/:id" component={UserForm} />
       </Switch>
     </BrowserRouter>
   )
